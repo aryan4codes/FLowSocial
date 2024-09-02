@@ -1,0 +1,5 @@
+flask 
+flwr 
+torch 
+torchvision 
+numpy
