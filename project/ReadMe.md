@@ -4,6 +4,8 @@
 
 This project is managed using [Poetry](https://python-poetry.org/), a tool for dependency management and packaging in Python. This README provides a guide on how to set up, install dependencies, and use Poetry in this project.
 
+### Data : Open Images Dataset - Google
+
 ## Prerequisites
 - Python 3.11 (or the required version specified in `pyproject.toml`)
 - Poetry (install via `pip install poetry` or follow [Poetry's installation guide](https://python-poetry.org/docs/#installation))
@@ -14,6 +16,7 @@ This project is managed using [Poetry](https://python-poetry.org/), a tool for d
 ```bash
 git clone <repository-url>
 cd <repository-directory>
+cd project
 ```
 
 ### 2. Set Up Poetry Environment
