@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "social-media-federated"
+version = "0.1.0"
+description = "Research Paper Demonstration for MultiModal Federated Learning Recommendation Model for Social Media Network Systems"
+authors = ["aryan4codes <av.rajpurkar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+fiftyone = "^1.2.0"
+flwr = "^1.14.0"
+tensorflow-io-gcs-filesystem = "0.31.0"
+torch = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
