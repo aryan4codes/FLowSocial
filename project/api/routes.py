@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from models_v2.text_recommender import TextRecommender
-from models_v2.clustering import cluster_embeddings
+from models.text_recommender import TextRecommender
+from models.clustering import cluster_embeddings
 import torch
 
 app = Flask(__name__)

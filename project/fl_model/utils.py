@@ -1,7 +1,7 @@
 # Utility functions (e.g. encryption, key management)
 
 import torch
-from models_v2.text_recommender import TextRecommender
+from models.text_recommender import TextRecommender
 
 def evaluate_aggregate(server_round, parameters, config):
     """

@@ -3,7 +3,7 @@
 import flwr as fl
 import torch
 import numpy as np
-from models_v2.text_recommender import TextRecommender
+from models.text_recommender import TextRecommender
 
 class TextFLClient(fl.client.NumPyClient):
     def __init__(self, device="cpu"):
