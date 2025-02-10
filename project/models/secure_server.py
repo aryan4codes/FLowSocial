@@ -14,7 +14,6 @@ class SecureServer(fl.server.Server):
         self.min_fit_clients = min_fit_clients
         self.min_available_clients = min_available_clients
         
-        # Store client encryption keys (in practice, use secure key exchange)
         self.client_keys = {}
         
         # Initialize cluster centroids
