@@ -1,2 +1,8 @@
 /data/raw
+
+# Ignore all .pyc files
+*.pyc
+
 /models/__pycache__/
+/fl_model/__pycache__/
+/models_v2/__pycache__/
